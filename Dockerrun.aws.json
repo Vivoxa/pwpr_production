@@ -1,32 +1,18 @@
 {
-  "AWSEBDockerrunVersion": 1,
-  "volumes": [
+  "AWSEBDockerrunVersion": "1",
+  "Image": {
+    "Name": "084857879641.dkr.ecr.eu-west-1.amazonaws.com/pwpr:v0.1.12",
+    "Update": "true"
+  },
+  "Ports": [
     {
-      "name": "app",
-      "host": {
-        "sourcePath": "/var/app/current/app"
-      }
+      "ContainerPort": "3000"
     }
   ],
-  "containerDefinitions": [
+  "Volumes": [
     {
-      "name": "pwpr_app",
-      "image": "084857879641.dkr.ecr.eu-west-1.amazonaws.com/pwpr:v0.1.12",
-      "environment": [
-        {
-          "name": "Container",
-          "value": "PHP"
-        }
-      ],
-      "essential": true,
-      "memory": 128,
-      "mountPoints": [
-        {
-          "sourceVolume": "app",
-          "containerPath": "/var/www/html",
-          "readOnly": true
-        }
-      ]
+      "HostDirectory": "/var/app",
+      "ContainerDirectory": "app"
     }
   ]
 }
