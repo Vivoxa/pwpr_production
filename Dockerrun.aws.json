@@ -1,7 +1,7 @@
 {
   "AWSEBDockerrunVersion": "1",
   "Image": {
-    "Name": "084857879641.dkr.ecr.eu-west-1.amazonaws.com/pwpr:v0.1.14",
+    "Name": "084857879641.dkr.ecr.eu-west-1.amazonaws.com/pwpr:v0.1.15",
     "Update": "true"
   },
   "Ports": [
