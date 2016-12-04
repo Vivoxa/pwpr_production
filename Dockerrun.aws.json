@@ -15,6 +15,10 @@
           "value": "INSERT SECRET KEY BASE"
         },
         {
+          "name": "RAILS_SERVE_STATIC_FILES",
+          "value": "true"
+        },
+        {
           "name": "DOCKER_IP",
           "value": "54.194.218.15"
         },
