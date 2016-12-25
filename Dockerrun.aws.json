@@ -9,7 +9,7 @@
         {
           "name": "RAILS_SERVE_STATIC_FILES",
           "value": "true"
-        }
+        },
         {
           "name": "SES_USERNAME",
           "value": "AKIAJLG4LOVJWODTUMGQ"
