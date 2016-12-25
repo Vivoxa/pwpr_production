@@ -24,7 +24,7 @@
         },
         {
           "name": "AWS_REGION",
-          "value": "eu-west-1”
+          "value": "eu-west-1"
         },
         {
           "name": "PROD_PWPR_DATABASE_PASSWORD",
