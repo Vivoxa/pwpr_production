@@ -8,19 +8,31 @@
       "environment": [
         {
           "name": "SES_USERNAME",
-          "value": "INSERT PASSWORD"
+          "value": "AKIAJLG4LOVJWODTUMGQ"
         },
         {
           "name": "SES_PASSWORD",
-          "value": "INSERT SECRET KEY BASE"
+          "value": "ApJyMOiCpPksjbZ/Tjia9y4EFIhyOhNUtzwEpZuad/wM"
+        },
+        {
+          "name": "AWS_ACCESS_KEY_ID",
+          "value": "AKIAIP545NYBEULGWFTQ"
+        },
+        {
+          "name": "AWS_SECRET_ACCESS_KEY",
+          "value": "8NOwnQlpY083NPKy61oQJOYvxvzm58Gk6MotC928"
+        },
+        {
+          "name": "AWS_REGION",
+          "value": "eu-west-1”
         },
         {
           "name": "PROD_PWPR_DATABASE_PASSWORD",
-          "value": "INSERT PASSWORD"
+          "value": "MyS3cur3Password"
         },
         {
           "name": "SECRET_KEY_BASE",
-          "value": "INSERT SECRET KEY BASE"
+          "value": "0c64deb461266abb601d62b86780c92e8220f1e80fcaa2faa48a8005b7c4cf5dba4f921f5be0e288558a0c3f10ce23302bb54f593a19e7b6260cdd29ebb04760"
         },
         {
           "name": "DOCKER_IP",
