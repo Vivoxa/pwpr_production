@@ -72,7 +72,7 @@
         },
         {
           "name": "SES_ENDPOINT",
-          "value": "email-smtp.us-east-1.amazonaws.com"
+          "value": "email-smtp.eu-west-1.amazonaws.com"
         },
         {
           "name": "APP_CO_SIGN_IN_URL",
