@@ -4,7 +4,7 @@
   "containerDefinitions": [
     {
       "name": "pwpr-app",
-      "image": "084857879641.dkr.ecr.eu-west-1.amazonaws.com/pwpr:v0.1.7",
+      "image": "084857879641.dkr.ecr.eu-west-1.amazonaws.com/pwpr:v0.1.8",
       "environment": [
         {
           "name": "RAILS_SERVE_STATIC_FILES",
