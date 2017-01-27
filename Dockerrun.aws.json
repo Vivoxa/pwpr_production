@@ -4,15 +4,47 @@
   "containerDefinitions": [
     {
       "name": "pwpr-app",
-      "image": "084857879641.dkr.ecr.eu-west-1.amazonaws.com/pwpr:v0.1.13",
+      "image": "084857879641.dkr.ecr.eu-west-1.amazonaws.com/pwpr:v0.1.1",
       "environment": [
         {
+          "name": "BUNNY_USERNAME",
+          "value": "inglebert"
+        },
+        {
+          "name": "BUNNY_PASSWORD",
+          "value": "MyS3cur3Password"
+        },
+        {
+          "name": "RAILS_SERVE_STATIC_FILES",
+          "value": "true"
+        },
+        {
+          "name": "SES_USERNAME",
+          "value": "AKIAJLG4LOVJWODTUMGQ"
+        },
+        {
+          "name": "SES_PASSWORD",
+          "value": "ApJyMOiCpPksjbZ/Tjia9y4EFIhyOhNUtzwEpZuad/wM"
+        },
+        {
+          "name": "AWS_ACCESS_KEY_ID",
+          "value": "AKIAIP545NYBEULGWFTQ"
+        },
+        {
+          "name": "AWS_SECRET_ACCESS_KEY",
+          "value": "8NOwnQlpY083NPKy61oQJOYvxvzm58Gk6MotC928"
+        },
+        {
+          "name": "AWS_REGION",
+          "value": "eu-west-1"
+        },
+        {
           "name": "PROD_PWPR_DATABASE_PASSWORD",
-          "value": "INSERT PASSWORD"
+          "value": "MyS3cur3Password"
         },
         {
           "name": "SECRET_KEY_BASE",
-          "value": "INSERT SECRET KEY BASE"
+          "value": "0c64deb461266abb601d62b86780c92e8220f1e80fcaa2faa48a8005b7c4cf5dba4f921f5be0e288558a0c3f10ce23302bb54f593a19e7b6260cdd29ebb04760"
         },
         {
           "name": "DOCKER_IP",
@@ -29,6 +61,34 @@
         {
           "name": "SPREADSHEET_WORKER_LOG_PATH",
           "value": "log/spreadsheet_worker.log"
+        },
+        {
+          "name": "REPORTS_QUEUE_HOST",
+          "value": "queue_rabbitmq:5672"
+        },
+        {
+          "name": "REPORTS_QUEUE_NAME",
+          "value": "reports_email_queue"
+        },
+        {
+          "name": "REPORTS_WORKER_LOG_PATH",
+          "value": "log/reports_email_worker.log"
+        },
+        {
+          "name": "FROM_EMAIL",
+          "value": "notifications@app-pwpr.com"
+        },
+        {
+          "name": "SES_ENDPOINT",
+          "value": "email-smtp.eu-west-1.amazonaws.com"
+        },
+        {
+          "name": "APP_CO_SIGN_IN_URL",
+          "value": "http://app-pwpr.com/company_operators/sign_in"
+        },
+        {
+          "name": "APP_SO_SIGN_IN_URL",
+          "value": "http://app-pwpr.com/scheme_operators/sign_in"
         }
       ],
       "essential": true,
