@@ -24,7 +24,7 @@
         },
         {
           "name": "SES_PASSWORD",
-          "value": "ApJyMOiCpPksjbZ/Tjia9y4EFIhyOhNUtzwEpZuad/wM"
+          "value": ""
         },
         {
           "name": "AWS_ACCESS_KEY_ID",
@@ -32,7 +32,7 @@
         },
         {
           "name": "AWS_SECRET_ACCESS_KEY",
-          "value": "8NOwnQlpY083NPKy61oQJOYvxvzm58Gk6MotC928"
+          "value": ""
         },
         {
           "name": "AWS_REGION",
